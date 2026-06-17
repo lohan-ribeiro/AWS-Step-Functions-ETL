@@ -1,2 +1,6 @@
 # Explorando-Workflows-Automatizados-com-AWS-Step-Functions
-Este projeto utiliza o AWS Step Functions para criar e gerenciar workflows que integram serviços da AWS, como Lambda, S3, SNS, SQS e DynamoDB. A solução automatiza processos de validação de arquivos, processamento de dados e comunicação entre serviços, permitindo o monitoramento das execuções e o tratamento de falhas. 
+Este projeto tem como objetivo explorar o AWS Step Functions, serviço de orquestração de workflows da AWS, para integrar e automatizar processos em ambientes de nuvem. A solução consiste na criação e execução de fluxos de trabalho capazes de coordenar diferentes serviços da AWS, como Lambda, S3, SNS, SQS e DynamoDB, de forma visual, escalável e com baixo acoplamento.
+
+Durante o desenvolvimento, serão implementados workflows responsáveis por validar arquivos armazenados no Amazon S3, acionar funções AWS Lambda para processamento de dados, realizar comunicação assíncrona por meio de filas Amazon SQS e tópicos Amazon SNS, além de persistir informações no Amazon DynamoDB. O projeto também contempla o monitoramento das execuções dos fluxos, tratamento de falhas e aplicação de mecanismos de automação para garantir maior confiabilidade e eficiência operacional.
+
+A proposta permite aplicar conceitos fundamentais de computação em nuvem, mensageria, orquestração de serviços, processamento orientado a eventos e boas práticas de arquitetura AWS, proporcionando uma visão prática sobre a construção de soluções distribuídas e escaláveis.
