@@ -1,4 +1,4 @@
-# Explorando Workflows Automatizados com AWS Step Functions
+# Explorando AWS Step Functions na Construção de um Pipeline ETL Serverless
 Este projeto tem como objetivo explorar o AWS Step Functions, serviço de orquestração de workflows da AWS, por meio da construção de um pipeline ETL serverless para processamento de arquivos CSV armazenados no Amazon S3.
 
 A solução integra serviços da AWS para validar, transformar e armazenar dados de forma automatizada, utilizando uma arquitetura orientada a eventos, escalável e de baixo acoplamento.
