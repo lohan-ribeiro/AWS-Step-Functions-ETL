@@ -11,7 +11,7 @@ def lambda_handler(event, context):
     ]
 
     # extrair as colunas e dados do meu body para validação
-    conteudo = event["body"]
+    conteudo = event["Body"]
     arquivo_csv = StringIO(conteudo)
     leitor = csv.DictReader(arquivo_csv)
 
