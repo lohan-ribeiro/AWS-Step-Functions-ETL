@@ -4,12 +4,12 @@ Este projeto tem como objetivo explorar o AWS Step Functions, serviço de orques
 A solução integra serviços da AWS para validar, transformar e armazenar dados de forma automatizada, utilizando uma arquitetura orientada a eventos, escalável e de baixo acoplamento.
 <br></br>
 
-# 🎯 Objetivo
+## 🎯 Objetivo
 
 Desenvolver um pipeline ETL serverless utilizando AWS Step Functions para orquestrar etapas de validação, transformação e armazenamento de dados.
 <br></br>
 
-# 🏗️  Arquitetura
+## 🏗️  Arquitetura
 
 ![arquitetura](./docs/Workflows-Automatizados-com-AWS-Step-Functions.drawio.png)
 
@@ -17,7 +17,7 @@ Desenvolver um pipeline ETL serverless utilizando AWS Step Functions para orques
   <em>Arquitetura desenvolvida utilizando Draw.io.</em>
 </p>
 
-## Fluxo:
+### Fluxo:
 
 1. Leitura do arquivo CSV armazenado no Amazon S3.
 2. Validação da estrutura e integridade do arquivo.
@@ -28,12 +28,12 @@ Desenvolver um pipeline ETL serverless utilizando AWS Step Functions para orques
 
 ![stepfunction](./docs/stepfunctions_graph_etl.png)
 
-## Exemplo de Notificação
+### Exemplo de Notificação
 
 ![mengameEmail](./docs/mensagem-stefunction-SNS-AWS.png)
 <br></br>
 
-# 🚀 Tecnologias
+## 🚀 Tecnologias
 
 - AWS Lambda
 - Amazon S3
@@ -43,7 +43,7 @@ Desenvolver um pipeline ETL serverless utilizando AWS Step Functions para orques
 - JSONata
 <br></br>
 
-# ⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 - Processamento de arquivos CSV utilizando Amazon S3.
 - Validação automática de arquivos CSV.
 - Verificação de colunas obrigatórias.
@@ -54,7 +54,7 @@ Desenvolver um pipeline ETL serverless utilizando AWS Step Functions para orques
 - Orquestração serverless com AWS Step Functions.
 <br></br>
 
-# 📚 Estrutura do Projeto
+## 📚 Estrutura do Projeto
 
 ```
 aws-step-functions-etl/  
@@ -65,7 +65,7 @@ aws-step-functions-etl/
 └── README.md  
 ```
 
-# 🎓 Aprendizados
+## 🎓 Aprendizados
 
 Durante o desenvolvimento deste projeto foram aplicados conceitos de:
 
@@ -80,7 +80,7 @@ Durante o desenvolvimento deste projeto foram aplicados conceitos de:
 - Mensageria e notificações com SNS
 <br></br>
 
-# ✅ Resultado
+## ✅ Resultado
 
 O pipeline foi capaz de:
 
@@ -91,5 +91,5 @@ O pipeline foi capaz de:
 - Orquestrar todo o fluxo utilizando AWS Step Functions.
 <br></br>
 
-# ⚠️ Aviso
+## ⚠️ Aviso
 Todos os dados usados ​​neste projeto são fictícios e usados ​​apenas para fins educacionais.
